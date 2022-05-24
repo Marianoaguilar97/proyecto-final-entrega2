@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html land="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenos Viajes Web Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="shorcut icon" href="../imagenes/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<div class="contenedor">
+
+    <body>
+        <header>
+            <!--Logo -->
+            <a href="../index.html"><img class="logo1" src="../imagenes/1.png" alt="Logo"></a>
+            <a href="../index.html"><img class="logo2" src="../imagenes/2.png" alt="Logo"></a>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="fechas-y-precios.html">Fechas Y Precios</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="redes__sociales">
+                <!--Redes Sociales -->
+                <a href="https://www.instagram.com/"><img src="../imagenes/rrss/1.png" alt="Logo Instagram"> </a>
+                <a href="https://www.facebook.com/"><img src="../imagenes/rrss/2.png" alt="Logo Facebook"> </a>
+                <a href="https://www.twitter.com/"><img src="../imagenes/rrss/3.png" alt="Logo Twitter"> </a>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1 class="seccion__titulo">Nosotros</h1>
+                <!--Imagen tematica de viajes-->
+
+                <div class="seccion__quienesSomos">
+                    <h2>Quienes Somos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure ut non quaerat, dolores aliquid, fugit expedita eum veritatis
+                        impedit officia repudiandae incidunt suscipit dignissimos consequuntur
+                        porro amet tenetur, consectetur dolor? Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Qui incidunt totam illo, delectus quis aspernatur error in id
+                        laudantium? Soluta dolore perspiciatis voluptatem omnis nisi animi nemo, repellendus
+                        dolores praesentium.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__mediosDePago">
+                <h3>Medios De Pago</h3>
+                <!--Imagenes de medios de pago-->
+                <img src="../imagenes/pagos/1.png" alt="Master Card">
+                <img src="../imagenes/pagos/2.png" alt="American express">
+                <img src="../imagenes/pagos/3.png" alt="Visa">
+                <img src="../imagenes/pagos/4.png" alt="Maestro">
+            </div>
+            <div class="footer__formulario">
+                <form action="https://formspree.io/f/mknyqqvj" method="POST">
+                    <h3>Contactanos</h3>
+                    <input class="controles" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre"
+                        required>
+                    <input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido"
+                        required>
+                    <input class="controles" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"
+                        required>
+                    <textarea name="Comentarios" placeholder="Comentarios" id="Comentarios"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </footer>
+    </body>
+</div>
+
+</html>
