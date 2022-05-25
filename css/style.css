@@ -20,14 +20,6 @@ body {
 	background-color: burlywood;
 }
 
-.contenedor	{display: grid;
-grid-template-areas: "header"
-					"main"
-					"footer";
-					grid-template-columns: 1fr;
-					grid-template-rows: 1fr;
-} 
-
 /*header */
  header {
 	height: 160px;
